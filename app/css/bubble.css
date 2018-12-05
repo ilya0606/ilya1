@@ -1,0 +1,40 @@
+.bubble{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+
+	background-image: url("../img/bubble_sprite_sheet.png");
+
+}
+
+
+.bubble_0{
+
+	background-position: 0 0;
+	left: 10px;
+	top: 10px;
+}
+
+
+.bubble_1{
+
+	background-position: 0 -50px;	
+}
+
+.bubble_2{
+	background-position: 0 -100px;
+	
+}
+
+.bubble_3{
+
+	background-position: 0 -150px;
+}
+
+.bubble_cur{
+
+	top: 400px;
+	left: 325px;
+
+}
